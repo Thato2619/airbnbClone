@@ -68,7 +68,6 @@ section{
   display: flex;
   flex-direction: column;
   margin-left: 15px;
-
 }
 
 .card-image{
@@ -101,4 +100,14 @@ section{
 
 .gray{
   color: #918E9B;
+}
+
+.card-badge {
+  position:relative;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 }
